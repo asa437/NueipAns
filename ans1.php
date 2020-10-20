@@ -45,7 +45,7 @@ class Scooter extends Car implements limit{
     }
 }
 
-echo "scooter";
+echo "scooter 相同項目";
 echo "<br>";
 
 $scooter=new Scooter(2,'small','gray');
@@ -55,6 +55,9 @@ echo "體積:" . $scooter->volume();
 echo "<br>";
 echo "顏色:" . $scooter->color();
 echo "<br>";
+
+echo "<hr>";
+echo  "scotter差異:" ;
 echo  $scooter->speed();
 echo "<br>";
 
