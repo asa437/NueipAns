@@ -1,9 +1,9 @@
 <?php
-
+//設定介面
 interface limit{
     public function speed();
 }
-
+//設定 基礎class
 class Car{
     protected $tire="";
     protected $volume="";
@@ -38,6 +38,7 @@ echo "<br>";
 
 echo "<hr>";
 
+//使用繼承及介面
 class Scooter extends Car implements limit{
     public function speed(){
         echo "run slowly";
