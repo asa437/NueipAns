@@ -12,3 +12,6 @@
 ## 3
 ### 使用 foreach() 作陣列迴圈使用
 
+## 4
+### 使用 函式function  作陣列演算法使用
+### function使用 for 迴圈
